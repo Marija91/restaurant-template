@@ -1,0 +1,300 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Template for a restaurant</title>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script:400,700" rel="stylesheet">
+
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script>
+      jQuery(document).ready(function($) {
+
+      $(".scroll").click(function(event){   
+        event.preventDefault();
+        $('html,body').animate({scrollTop:$(this.hash).offset().top -70}, 800);
+      });
+      });
+    </script>
+  </head>
+
+  <body>
+    <header id="home" class="bg-header flex">
+      <nav class="navbar navbar-expand-md navbar-dark bg-transparent fixed-top my-navbar">           
+        <a href="#" class="logo transition">LOGO</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+             <a class="nav-link transition scroll" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+             <a class="nav-link transition scroll" href="#about">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link transition scroll" href="#menu">Menu</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link transition scroll" href="#offer">Offer</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link transition scroll" href="#reservation">Reservation</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link transition scroll" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <main role="main">
+        <div class="header-text flex">
+          <h1>welcome to my</h1>
+          <h2>Website template for <span> restaurant!</span></h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br> Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+          <a href="#" class="btn transition">Learn more</a>
+        </div>
+      </main>
+    </header>  
+
+    <section id="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 introduction flex">
+            <h3>Hello there</h3>
+            <h1>Welcome to my site!</h1>
+            <hr>
+            <p>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. <br>It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages.</p>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 category">
+            <h2>Coffee / <span>Cake</span> / Pizza </h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 services">
+            <img src="img/img-1.jpg">
+            <h2>Coffe</h2>
+            <h3>Welcome to my site!</h3>
+            <p>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.  Letraset sheets containing Lorem Ipsum passages.</p>
+          </div>
+          <div class="col-lg-4 services">
+            <img src="img/img-2.jpg">
+            <h2>Cake</h2>
+            <h3>Welcome to my site!</h3>
+            <p>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised release of Letraset sheets containing Lorem Ipsum passages.</p>
+          </div>
+          <div class="col-lg-4 services">
+            <img src="img/img-3.jpg">
+            <h2>Pizza</h2>
+            <h3>Welcome to my site!</h3>
+            <p>The leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="menu" class="no-padding">
+      <main class="prices">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12 introduction flex">
+              <h3>Hello there</h3>
+              <h1>Look at our menu!</h1>
+            </div>
+          </div>
+          <div class="row price">
+            <div class="col-lg-6">
+              <div class="flex price-child">
+                <img src="img/img-4.jpg" class="price-img">
+                <div class="desc">
+                  <h3>Pork</h3>
+                  <p>The leap into electronic typesetting, remaining essentially unchanged.</p>
+                </div>             
+                <span>8€</span>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="flex price-child">
+                <img src="img/img-5.jpg" class="price-img">
+                <div class="desc">
+                  <h3>Pizza</h3>
+                  <p>The leap into electronic typesetting, remaining essentially unchanged.</p>
+                </div>             
+                <span>3€</span>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="flex price-child">
+                <img src="img/img-6.jpg" class="price-img">
+                <div class="desc">
+                  <h3>Pancakes</h3>
+                  <p>The leap into electronic typesetting, remaining essentially unchanged.</p>
+                </div>             
+                <span>3.6€</span>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="flex price-child">
+                <img src="img/img-7.jpg" class="price-img">
+                <div class="desc">
+                  <h3>Salmon</h3>
+                  <p>The leap into electronic typesetting, remaining essentially unchanged.</p>
+                </div>             
+                <span>5€</span>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="flex price-child">
+                <img src="img/img-8.jpg" class="price-img">
+                <div class="desc">
+                  <h3>Salad</h3>
+                  <p>The leap into electronic typesetting, remaining essentially unchanged.</p>
+                </div>             
+                <span>4.5€</span>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="flex price-child">
+                <img src="img/img-9.jpg" class="price-img">
+                <div class="desc">
+                  <h3>Coffee</h3>
+                  <p>The leap into electronic typesetting, remaining essentially unchanged.</p>
+                </div>             
+                <span>2.3€</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+    </section>  
+
+    <section id="offer" class="bg-welcome">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 introduction flex">
+            <h3>Hello there</h3>
+            <h1>Welcome to my site!</h1>
+            <hr>
+            <p>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. <br>It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages.</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 flex column">
+            <img src="img/circle1.jpg">
+            <hr>
+            <h2>Cookies</h2>
+          </div>
+          <div class="col-lg-4 flex column">
+            <img src="img/circle2.jpg">
+            <hr>
+            <h2>Cake</h2>
+          </div>
+          <div class="col-lg-4 flex column">
+            <img src="img/circle3.jpg">
+            <hr>
+            <h2>Coffee</h2>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="reservation" class="reservation no-padding">      
+      <div class="row">
+        <div class="col-lg-6 col-md-12">          
+          <div class="introduction flex reservation-text">
+            <h3>Reservation</h3>
+            <h1>Book a table!</h1>
+            <hr>
+            <p>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages.</p>
+          </div>
+          <div class="flex">
+            <form>               
+              <div class="form-row">
+                <div class="form-group col-md-12 col-sm-12">
+                  <input type="text" class="form-control" id="inputEmail4" placeholder="Full name">
+                </div>                 
+                <div class="form-group col-md-6 col-sm-6">
+                  <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+                </div>
+                <div class="form-group col-md-6 col-sm-6">
+                  <input type="number" class="form-control" placeholder="No. of people">
+                </div>
+                <div class="form-group col-md-6 col-sm-6">
+                  <input type="number" class="form-control" placeholder="Date: YY-MM-DD">
+                </div> 
+                <div class="form-group col-md-6 col-sm-6">
+                  <input type="number" class="form-control" placeholder="Time">
+                </div>
+                <div class="form-group col-md-12">
+                  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Message"></textarea>
+                  <button type="submit" class="btn btn-primary">Submit</button>
+                </div>
+              </div>                
+            </form>
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-12">
+          <div class="reservation-image"></div>            
+        </div>
+      </div>     
+    </section>
+
+    <section id="contact" class="contact no-padding">      
+      <div class="row">
+        <div class="col-lg-6 col-md-12">
+          <div class="contact-image"></div>            
+        </div>
+        <div class="col-lg-6 col-md-12">          
+          <div class="introduction flex contact-text">
+            <h3>Contact</h3>
+            <h1>Informations!</h1>
+            <hr>
+            <b>Working time</b>
+            <table>
+              <tr>
+                <td>Monday - Thursday</td>
+                <td>09.00 - 22.30</td>
+              </tr>
+              <tr>
+                <td>Friday - Saturday</td>
+                <td>10.00 - 23.30</td>
+              </tr>
+              <tr>
+                <td>Sunday</td>
+                <td>10.00 - 21.30</td>
+              </tr>
+            </table>
+            <b>Address</b>
+            <p>Some Address 23, City Country</p>
+            <b>Phone</b>
+            <p>067 225 228</p>
+            <b>E-mail</b>
+            <p>some@email.com</p>
+          </div>
+        </div>
+      </div>     
+    </section>    
+
+    <footer>
+      <div class="container">
+        <p>by Marija Kolenkaš. &copy; Copyright 2018. All rights reserved.</p>
+      </div>
+    </footer>
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
